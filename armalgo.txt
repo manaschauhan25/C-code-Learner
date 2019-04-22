@@ -1,0 +1,15 @@
+start
+initialise four numbers  a,b,c,d=0
+input three digit number a
+b=a
+while(b!=0)
+{
+c=b%10;
+d+=c*c*c
+b=b/10
+}
+if(a==d)
+print armstrong number
+else
+print not armstrong Number
+end

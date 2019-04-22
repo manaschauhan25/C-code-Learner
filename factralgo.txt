@@ -1,0 +1,15 @@
+start
+declare a function
+start main
+initialise n
+input n
+call function 
+close main
+start funtion
+{
+if(n>=1)
+return n*function(n-1)
+else
+return 1
+close fuction
+end

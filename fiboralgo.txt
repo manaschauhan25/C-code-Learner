@@ -1,0 +1,17 @@
+start
+declare a function
+start main
+initialise n,i
+input n
+for(i=1;i<=n;i++)
+{
+print call function
+}
+close main
+start function
+{
+if(n==0||n==1)
+return n
+else
+return(function(n-1)+function(n-2))
+end
